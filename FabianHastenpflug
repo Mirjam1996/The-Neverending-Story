@@ -1,0 +1,7 @@
+for(int semester = 0; semester < 6; semester++) {
+  if(leistung > ok) {
+    bestehen;
+  }
+  else {
+    exmatriculate;
+  }
