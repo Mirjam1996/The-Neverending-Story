@@ -38,11 +38,11 @@ public class PlayerStats : MonoBehaviour { //Skript wird dem Fuchs zugeordnet.
 
     private void CalculateValues() {
         //Hungeranzeige reduziert sich (Stärke festlegbar).
-        Hunger -= hungerOverTime * hungerOverTime.deltaTime;
+        Hunger -= hungerOverTime * Time.deltaTime;
 
         //Sobald Hunger den Wert 'minAmount' unterschritten hat, reduziert sich auch die Lebensanzeige.
         if(Hunger <= minAmount) {
-            Health -= healthOverTime * hungerOverTime.deltaTime;
+            Health -= healthOverTime * Time.deltaTime;
         }
 
         //Wenn nix Gesundheit --> nix fröhlich weiter rumlaufen.
