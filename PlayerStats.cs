@@ -47,7 +47,7 @@ public class PlayerStats : MonoBehaviour { //Skript wird dem Fuchs zugeordnet.
 
         //Wenn nix Gesundheit --> nix fröhlich weiter rumlaufen.
         if(Health <= 0) {
-            printf("PLAYER HAS DIED");
+            print("PLAYER HAS DIED");
         }
     }
 
